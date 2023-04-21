@@ -1,0 +1,77 @@
+body {
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+img{
+    width: auto;
+    height: 140px;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.4);
+    display: flex;
+    position: absolute;
+    top: 15%;
+    left:10%;
+    z-index: 0;
+}
+
+/* .border-util {
+    border: 1px dotted blue;
+} */
+
+.card {
+    position: relative;
+    width: 400px;
+    height: 180px;
+    display: flex;
+    justify-content: space-around;
+    margin: 30px auto 0 auto;
+    padding: 20px;
+    background: #873ddc;
+    color: #97f2ff;
+    border-bottom: 6px solid #d8cefe;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+    cursor: pointer;
+    z-index: 1;
+    border-radius: 2px;
+}
+.profile-notes {
+    position: absolute;
+    left:40%;
+    top: 0;
+    font-size: large;
+    text-align: center;
+}
+
+#name {
+    font-size: 30px;
+    letter-spacing: 2px;
+    
+}
+#job{
+    letter-spacing: 2px;
+    font-size: 18px;
+    color: #ffffb8;
+}
+#location {
+    animation: enlargeFont 1.5s ease-in-out;
+    transition: 4s;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+
+@keyframes enlargeFont {
+    from {
+        font-size: 8px;
+    }
+    to{
+        font-size: 18px;
+    }
+}
+
+img:hover {
+box-shadow: 0 5px 10px rgba(192,109,255,0.1);
+}
+
+
+
+
